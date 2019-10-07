@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NewKotlinApp</string>
+    <string name="welcomeText">Halo Gan! %1$d kali.</string>
+</resources>

@@ -13,11 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         textV.text = getString(R.string.welcomeText, number)
         btnTap.setOnTouchListener(RepeatListener(500, 10, View.OnClickListener {
-            nambah()
+            tambah()
         }))
     }
 
-    private fun nambah() {
+    private fun tambah() {
         number++
         textV.text = getString(R.string.welcomeText, number)
     }
